@@ -1,3 +1,4 @@
+
 // Contribution by Sneha M- UIT2023843 
 public class Division {
     public static void main(String[] args) {
@@ -13,3 +14,4 @@ public class Division {
         }
     }
 }
+
