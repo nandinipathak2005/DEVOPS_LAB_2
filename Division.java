@@ -1,4 +1,4 @@
-// Contribution by Sneha - UIT2023843
+// Contribution by Sneha M- UIT2023843 
 public class Division {
     public static void main(String[] args) {
         int a = 20;
