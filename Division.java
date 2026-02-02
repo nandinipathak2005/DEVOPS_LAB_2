@@ -1,19 +1,17 @@
-package assgn;
-import java.util.*;
 
-public class Division 
-{
+// Contribution by Sneha M- UIT2023843 
+public class Division {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        int a = 20;
+        int b = 5;
 
-        System.out.println("Enter the first number:");
-        int a = sc.nextInt();
-
-        System.out.println("Enter the second number:");
-        int b = sc.nextInt();
-
-        int div = a / b;
-        System.out.println("The division is: " + div);
+        // Checking if b is zero to avoid an error
+        if (b != 0) {
+            int result = a / b;
+            System.out.println("The result of division is: " + result);
+        } else {
+            System.out.println("Error: Division by zero is not allowed.");
+        }
     }
 }
 
